@@ -1,0 +1,140 @@
+/* General Page Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f7fb;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+
+/* Main Content */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+/* Sections */
+
+section {
+    background: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #4f46e5;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+/* About */
+
+#about p {
+    margin-bottom: 12px;
+}
+
+
+/* Skills */
+
+#skills ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+#skills li {
+    margin: 10px 0;
+}
+
+
+/* Projects */
+
+.project {
+    border-left: 4px solid #4f46e5;
+    background: #f8f9ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.project p {
+    margin-bottom: 12px;
+}
+
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    background: #4f46e5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.project a:hover {
+    background: #372fc4;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
